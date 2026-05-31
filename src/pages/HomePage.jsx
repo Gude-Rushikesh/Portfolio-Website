@@ -241,7 +241,7 @@ export default function HomePage() {
               className="contact-link"
               href="/Rushikesh_Gude-Resume.pdf"
               download="Rushikesh-Gude-Resume.pdf"
-              target="_blank"
+              // target="_blank"
               icon="file"
             >
               Download Resume
