@@ -239,8 +239,8 @@ export default function HomePage() {
             </ContactLink> */}
             <a
               className="contact-link"
-              href="/Rushikesh_Gude-Resume.pdf"
-              download="Rushikesh-Gude-Resume.pdf"
+              href="/Rushikesh_Gude_Resume.pdf"
+              download="Rushikesh-Gude_Resume.pdf"
               // target="_blank"
               icon="file"
             >
