@@ -213,7 +213,7 @@ export default function HomePage() {
             </p>
           </div>
           <div className="contact-links">
-            <ContactLink href="mailto:your.email@example.com" icon="email">
+            <ContactLink href="mailto:rushikeshrdj23@gmail.com" icon="email">
               rushikeshrdj23@gmail.com
             </ContactLink>
             <ContactLink
@@ -240,7 +240,8 @@ export default function HomePage() {
             <a
               className="contact-link"
               href="/Rushikesh_Gude_Resume.pdf"
-              download="Rushikesh-Gude_Resume.pdf"
+              // download="Rushikesh-Gude_Resume.pdf"
+              rel="noopener noreferrer"
               // target="_blank"
               icon="file"
             >
