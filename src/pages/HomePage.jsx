@@ -213,7 +213,11 @@ export default function HomePage() {
             </p>
           </div>
           <div className="contact-links">
-            <ContactLink href="mailto:rushikeshrdj23@gmail.com" icon="email">
+            <ContactLink
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=rushikeshrdj23@gmail.com"
+              icon="email"
+              target="_blank"
+            >
               rushikeshrdj23@gmail.com
             </ContactLink>
             <ContactLink
@@ -239,9 +243,9 @@ export default function HomePage() {
             </ContactLink> */}
             <a
               className="contact-link"
-              href="/Rushikesh_Gude_Resume.pdf"
-              // download="Rushikesh-Gude_Resume.pdf"
-              rel="noopener noreferrer"
+              href="/Rushikesh-Gude_Resume.pdf"
+              download="Rushikesh-Gude_Resume.pdf"
+              // rel="noopener noreferrer"
               // target="_blank"
               icon="file"
             >
