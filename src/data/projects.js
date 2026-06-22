@@ -12,7 +12,7 @@ import weather from "../assets/projects/weather.png";
 import weather2 from "../assets/projects/weather2.png";
 import weather3 from "../assets/projects/weather3.png";
 import weather4 from "../assets/projects/weather4.png";
-import weather5 from "../assets/projects/weathe5.png";
+import weather5 from "../assets/projects/weather5.png";
 
 export const PROJECTS = [
   {
