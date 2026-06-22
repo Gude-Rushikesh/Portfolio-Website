@@ -44,7 +44,7 @@ export const PROJECTS = [
     duration: "2 Months",
     year: "2026",
 
-    liveUrl: "https://financial-rag-copilot.streamlit.app/",
+    liveUrl: "https://financial-rag-uj9dztnjomvzoagwvduyht.streamlit.app/",
     githubUrl: "https://github.com/Gude-Rushikesh/Financial-rag",
 
     overview:
