@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { PROJECTS, SKILLS } from '../data/projects';
+import Myphoto from "../assets/projects/Myphoto.png";
 import './HomePage.css';
 
 /* ── tiny inline SVG helpers ── */
@@ -156,9 +157,12 @@ export default function HomePage() {
           <div className="about-grid">
             {/* Photo placeholder — replace <div> with <img src="..." alt="Rushikesh" /> */}
             <div className="about-img" aria-label="Profile photo placeholder">
-              <div className="about-img-placeholder">
-                <span className="about-initials">R</span>
-                <span>Your photo here</span>
+              <div className="about-img">
+                <img
+                  src={Myphoto}
+                  alt="Rushikesh Gude"
+                  className="about-profile-img  "
+                />
               </div>
             </div>
             <div className="about-text">

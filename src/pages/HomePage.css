@@ -314,10 +314,15 @@
 }
 .about-img {
   aspect-ratio: 3/4;
-  background: var(--surface2);
   border-radius: 16px;
   overflow: hidden;
   border: 1px solid var(--line);
+}
+
+.about-profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 /* Replace .about-img-placeholder with a real <img> when you have your photo */
 .about-img-placeholder {
