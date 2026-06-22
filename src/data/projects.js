@@ -87,159 +87,15 @@ export const PROJECTS = [
     outcome:
       "Successfully developed a finance-focused AI assistant capable of answering complex report-based questions while providing supporting evidence and KPI insights.",
   },
-
   {
-    id: "taskforce-pro",
+    id: "Weather-classification",
     num: "02",
-    tag: "Full Stack Platform",
-    title: "TaskForce Pro",
-    titleItalic: "Pro",
-    image: taskforcePro,
-    gallery: [taskforcePro, taskforcePro2, taskforcePro3],
-
-    subtitle:
-      "A workforce management platform featuring task assignment, role-based access control, operational analytics, and employee performance tracking.",
-
-    desc: "A full-stack MERN application built to streamline team management and workplace operations.",
-
-    chips: ["React", "Node.js", "Express", "MongoDB", "JWT"],
-
-    color: "#2a1a0a",
-    accent: "#c9a96e",
-
-    role: "Full Stack Developer",
-    duration: "6 Weeks",
-    year: "2025",
-
-    liveUrl: "https://task-force-manager.vercel.app/login",
-    githubUrl: "https://github.com/Gude-Rushikesh/task-force-manager",
-
-    overview:
-      "Managing employees, tasks, and operational visibility becomes increasingly difficult as organizations grow. TaskForce Pro centralizes workforce operations through a unified management platform.",
-
-    process:
-      "Designed the application using the MERN stack with secure authentication, role-based permissions, REST APIs, and dashboard-driven analytics.",
-
-    features: [
-      {
-        title: "Role-Based Access",
-        desc: "Separate workflows for administrators, managers, and employees.",
-        icon: "M12 2a10 10 0 100 20",
-      },
-      {
-        title: "Task Management",
-        desc: "Create, assign, track, and manage employee workloads.",
-        icon: "M5 13l4 4L19 7",
-      },
-      {
-        title: "Analytics Dashboard",
-        desc: "Visual insights into team productivity and operational performance.",
-        icon: "M4 18V6M10 18V10M16 18V4",
-      },
-    ],
-
-    challenges: [
-      {
-        title: "Permission Management",
-        solution:
-          "Implemented JWT authentication and RBAC architecture to secure system operations.",
-      },
-      {
-        title: "Scalable Data Models",
-        solution:
-          "Designed efficient MongoDB schemas for users, tasks, and analytics reporting.",
-      },
-    ],
-
-    outcome:
-      "Delivered a production-style workforce platform demonstrating full-stack architecture, security, and operational analytics.",
-  },
-
-  {
-    id: "Audiobook-center",
-    num: "03",
-    tag: "MERN Application",
-    title: "Audiobook Center",
-    titleItalic: "Center",
-    gallery: [
-      audiobookCenter1,
-      audiobookCenter,
-      audiobookCenter2,
-      audiobookCenter3,
-      audiobookCenter4,
-    ],
-
-    subtitle:
-      "A full-stack audiobook streaming platform offering authentication, content discovery, category management, and immersive listening experiences.",
-
-    desc: "A MERN-based audiobook platform designed for users to discover, stream, and manage audiobook content.",
-
-    chips: ["React", "Node.js", "MongoDB", "JWT", "Tailwind CSS"],
-
-    color: "#0e0e16",
-    accent: "#7a70c9",
-
-    role: "Full Stack Developer",
-    duration: "5 Weeks",
-    year: "2025",
-
-    liveUrl: "https://audiobook-center.vercel.app/",
-    githubUrl: "https://github.com/Gude-Rushikesh/audiobook-center",
-
-    overview:
-      "The project was created to provide users with an intuitive audiobook streaming experience while allowing administrators to manage content efficiently.",
-
-    process:
-      "Developed a responsive frontend using React and Tailwind CSS, connected to a secure backend powered by Node.js, Express, and MongoDB.",
-
-    features: [
-      {
-        title: "Audiobook Streaming",
-        desc: "Listen to audiobook content directly through the platform.",
-        icon: "M5 3l14 9-14 9V3z",
-      },
-      {
-        title: "Authentication",
-        desc: "Secure login and registration using JWT authentication.",
-        icon: "M12 2a10 10 0 100 20",
-      },
-      {
-        title: "Content Discovery",
-        desc: "Browse audiobooks by categories and interests.",
-        icon: "M4 6h16M4 12h16M4 18h16",
-      },
-    ],
-
-    challenges: [
-      {
-        title: "Media Management",
-        solution:
-          "Implemented scalable handling of audiobook content and metadata.",
-      },
-      {
-        title: "Responsive Experience",
-        solution: "Optimized layouts for desktop, tablet, and mobile devices.",
-      },
-    ],
-
-    outcome:
-      "Built a complete media platform demonstrating authentication, content management, and full-stack development skills.",
-  },
-  {
-    id: "weather-classification",
-    num: "04",
     tag: "AI / Computer Vision",
 
     title: "Weather Vision Classifier",
     titleItalic: "Classifier",
 
-    gallery: [
-      weather,
-      weather2,
-      weather3,
-      weather4,
-      weather5
-    ],
+    gallery: [weather, weather2, weather3, weather4, weather5],
 
     subtitle:
       "An AI-powered computer vision application that classifies weather conditions from images using MobileNetV2 transfer learning and Grad-CAM explainability.",
@@ -311,6 +167,143 @@ export const PROJECTS = [
 
     outcome:
       "Achieved approximately 85.8% validation accuracy and 98.5% Top-3 accuracy on the weather classification dataset. Successfully deployed a production-ready AI application capable of real-time weather image recognition with explainable AI visualizations.",
+  },
+  {
+    id: "taskforce-pro",
+    num: "03",
+    tag: "Full Stack Platform",
+    title: "TaskForce Pro",
+    titleItalic: "Pro",
+    image: taskforcePro,
+    gallery: [taskforcePro, taskforcePro2, taskforcePro3],
+
+    subtitle:
+      "A workforce management platform featuring task assignment, role-based access control, operational analytics, and employee performance tracking.",
+
+    desc: "A full-stack MERN application built to streamline team management and workplace operations.",
+
+    chips: ["React", "Node.js", "Express", "MongoDB", "JWT"],
+
+    color: "#2a1a0a",
+    accent: "#c9a96e",
+
+    role: "Full Stack Developer",
+    duration: "6 Weeks",
+    year: "2025",
+
+    liveUrl: "https://task-force-manager.vercel.app/login",
+    githubUrl: "https://github.com/Gude-Rushikesh/task-force-manager",
+
+    overview:
+      "Managing employees, tasks, and operational visibility becomes increasingly difficult as organizations grow. TaskForce Pro centralizes workforce operations through a unified management platform.",
+
+    process:
+      "Designed the application using the MERN stack with secure authentication, role-based permissions, REST APIs, and dashboard-driven analytics.",
+
+    features: [
+      {
+        title: "Role-Based Access",
+        desc: "Separate workflows for administrators, managers, and employees.",
+        icon: "M12 2a10 10 0 100 20",
+      },
+      {
+        title: "Task Management",
+        desc: "Create, assign, track, and manage employee workloads.",
+        icon: "M5 13l4 4L19 7",
+      },
+      {
+        title: "Analytics Dashboard",
+        desc: "Visual insights into team productivity and operational performance.",
+        icon: "M4 18V6M10 18V10M16 18V4",
+      },
+    ],
+
+    challenges: [
+      {
+        title: "Permission Management",
+        solution:
+          "Implemented JWT authentication and RBAC architecture to secure system operations.",
+      },
+      {
+        title: "Scalable Data Models",
+        solution:
+          "Designed efficient MongoDB schemas for users, tasks, and analytics reporting.",
+      },
+    ],
+
+    outcome:
+      "Delivered a production-style workforce platform demonstrating full-stack architecture, security, and operational analytics.",
+  },
+
+  {
+    id: "Audiobook-center",
+    num: "04",
+    tag: "MERN Application",
+    title: "Audiobook Center",
+    titleItalic: "Center",
+    gallery: [
+      audiobookCenter1,
+      audiobookCenter,
+      audiobookCenter2,
+      audiobookCenter3,
+      audiobookCenter4,
+    ],
+
+    subtitle:
+      "A full-stack audiobook streaming platform offering authentication, content discovery, category management, and immersive listening experiences.",
+
+    desc: "A MERN-based audiobook platform designed for users to discover, stream, and manage audiobook content.",
+
+    chips: ["React", "Node.js", "MongoDB", "JWT", "Tailwind CSS"],
+
+    color: "#0e0e16",
+    accent: "#7a70c9",
+
+    role: "Full Stack Developer",
+    duration: "5 Weeks",
+    year: "2025",
+
+    liveUrl: "https://audiobook-center.vercel.app/",
+    githubUrl: "https://github.com/Gude-Rushikesh/audiobook-center",
+
+    overview:
+      "The project was created to provide users with an intuitive audiobook streaming experience while allowing administrators to manage content efficiently.",
+
+    process:
+      "Developed a responsive frontend using React and Tailwind CSS, connected to a secure backend powered by Node.js, Express, and MongoDB.",
+
+    features: [
+      {
+        title: "Audiobook Streaming",
+        desc: "Listen to audiobook content directly through the platform.",
+        icon: "M5 3l14 9-14 9V3z",
+      },
+      {
+        title: "Authentication",
+        desc: "Secure login and registration using JWT authentication.",
+        icon: "M12 2a10 10 0 100 20",
+      },
+      {
+        title: "Content Discovery",
+        desc: "Browse audiobooks by categories and interests.",
+        icon: "M4 6h16M4 12h16M4 18h16",
+      },
+    ],
+
+    challenges: [
+      {
+        title: "Media Management",
+        solution:
+          "Implemented scalable handling of audiobook content and metadata.",
+      },
+      {
+        title: "Responsive Experience",
+        solution: "Optimized layouts for desktop, tablet, and mobile devices.",
+      },
+    ],
+
+    outcome:
+      "Built a complete media platform demonstrating authentication, content management, and full-stack development skills.",
   },
 ];
 
