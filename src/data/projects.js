@@ -223,72 +223,89 @@ export const PROJECTS = [
   {
     id: "weather-classification",
     num: "04",
-    tag: "Machine Learning",
-    title: "Weather Classification System",
-    titleItalic: "System",
+    tag: "AI / Computer Vision",
+
+    title: "Weather Vision Classifier",
+    titleItalic: "Classifier",
+
     gallery: [
-      audiobookCenter,
-      audiobookCenter2,
-      audiobookCenter3,
-      audiobookCenter4,
+      weather,
+      weather2,
+      weather3,
+      weather4,
+      weather5
     ],
 
     subtitle:
-      "A CNN-based deep learning application that classifies weather conditions from images with high prediction accuracy.",
+      "An AI-powered computer vision application that classifies weather conditions from images using MobileNetV2 transfer learning and Grad-CAM explainability.",
 
-    desc: "A machine learning project leveraging Convolutional Neural Networks to recognize weather conditions from image datasets.",
+    desc: "Built a deep learning weather classification system capable of identifying 11 weather categories from images with high accuracy and real-time predictions.",
 
-    chips: ["Python", "TensorFlow", "Keras", "CNN", "Deep Learning"],
+    chips: [
+      "Python",
+      "TensorFlow",
+      "Keras",
+      "MobileNetV2",
+      "Computer Vision",
+      "Flask",
+      "Hugging Face",
+      "Deep Learning",
+    ],
 
     color: "#163047",
     accent: "#5aa9e6",
 
-    role: "ML Engineer",
+    role: "AI / ML Developer",
     duration: "4 Weeks",
     year: "2025",
 
-    liveUrl: "#",
+    liveUrl: "https://master2316-weather-vision-classifier.hf.space/",
     githubUrl: "https://github.com/Gude-Rushikesh/Weather_Project",
 
     overview:
-      "Weather recognition from images can support forecasting systems and environmental monitoring. This project applies deep learning techniques to classify weather conditions automatically.",
+      "Developed an end-to-end weather image classification platform using transfer learning and deep learning techniques. The model predicts weather conditions from uploaded images across 11 distinct weather categories and provides visual explanations using Grad-CAM.",
 
     process:
-      "Collected and preprocessed image datasets, applied augmentation techniques, trained CNN models using TensorFlow and Keras, and evaluated model performance through multiple metrics.",
+      "Prepared and cleaned a dataset of 6,800+ weather images spanning 11 weather classes. Applied data augmentation, transfer learning with MobileNetV2, class balancing, fine-tuning, and model evaluation. Deployed the trained model using Flask and Hugging Face Spaces for real-time inference.",
 
     features: [
       {
-        title: "CNN Classification",
-        desc: "Deep learning model trained for weather recognition.",
+        title: "11-Class Weather Recognition",
+        desc: "Classifies images into Dew, Fog/Smog, Frost, Glaze, Hail, Lightning, Rain, Rainbow, Rime, Sandstorm and Snow.",
         icon: "M10 20l4-16",
       },
       {
-        title: "Image Processing",
-        desc: "Preprocessing and augmentation for improved accuracy.",
+        title: "Grad-CAM Explainability",
+        desc: "Visualizes regions influencing predictions for improved model interpretability.",
         icon: "M4 6h16",
       },
       {
-        title: "Prediction Interface",
-        desc: "Real-time image-based weather prediction.",
+        title: "Real-Time Predictions",
+        desc: "Upload an image and instantly receive confidence scores and top predictions.",
         icon: "M9 12l2 2 4-4",
       },
     ],
 
     challenges: [
       {
-        title: "Overfitting Prevention",
+        title: "Class Imbalance",
         solution:
-          "Used augmentation and normalization techniques to improve generalization.",
+          "Applied class weighting and data augmentation techniques to improve learning across underrepresented weather categories.",
       },
       {
-        title: "Model Accuracy",
+        title: "Model Generalization",
         solution:
-          "Experimented with CNN architectures and hyperparameter tuning.",
+          "Used MobileNetV2 transfer learning, fine-tuning, dropout regularization, and early stopping to reduce overfitting.",
+      },
+      {
+        title: "Deployment Constraints",
+        solution:
+          "Optimized model loading and deployed the application using Flask and Hugging Face Spaces for public accessibility.",
       },
     ],
 
     outcome:
-      "Successfully achieved reliable weather classification performance while demonstrating practical deep learning implementation skills.",
+      "Achieved approximately 85.8% validation accuracy and 98.5% Top-3 accuracy on the weather classification dataset. Successfully deployed a production-ready AI application capable of real-time weather image recognition with explainable AI visualizations.",
   },
 ];
 
