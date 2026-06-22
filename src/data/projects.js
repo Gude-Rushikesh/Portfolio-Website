@@ -8,6 +8,11 @@ import audiobookCenter from "../assets/projects/audiobook-center.png";
 import audiobookCenter2 from "../assets/projects/audiobook-center2.png";
 import audiobookCenter3 from "../assets/projects/audiobook-parts.png";
 import audiobookCenter4 from "../assets/projects/audiobook-player.png";
+import weather from "../assets/projects/weather.png";
+import weather2 from "../assets/projects/weather2.png";
+import weather3 from "../assets/projects/weather3.png";
+import weather4 from "../assets/projects/weather4.png";
+import weather5 from "../assets/projects/weathe5.png";
 
 export const PROJECTS = [
   {
